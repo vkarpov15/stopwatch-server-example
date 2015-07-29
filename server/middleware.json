@@ -12,9 +12,17 @@
       }
     }
   },
-  "session": {
+  "session:before": {
+    "cookie-parser": { "params": "test secret" }
   },
-  "auth": {
+  "session": {
+    "express-session": {
+      "params": {
+        "secret": "other test secret",
+        "saveUninitialized": true,
+        "resave": true
+      }
+    }
   },
   "parse": {
   },
