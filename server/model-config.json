@@ -40,5 +40,9 @@
   "UserIdentity": {
     "dataSource": "db",
     "public": true
+  },
+  "Time": {
+    "dataSource": "db",
+    "public": true
   }
 }
