@@ -1,0 +1,13 @@
+<div>
+  <div class="time" ng-repeat="time in times">
+    <span class="time-delete" ng-click="delete(time)">
+      X
+    </span>
+    {{display(time.time)}}
+    <span ng-if="time.tag"
+          class="time-tag"
+          ng-style="{ 'background-color': tagToColor[time.tag] }">
+      {{time.tag}}
+    </span>
+  </div>
+</div>

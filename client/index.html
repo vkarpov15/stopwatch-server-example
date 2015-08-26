@@ -1,10 +1,15 @@
 <html ng-app="core">
   <head>
+    <link rel="stylesheet" href="css/style.css" />
+
     <script type="text/javascript"
             src="//code.angularjs.org/1.4.3/angular.js">
     </script>
     <script type="text/javascript"
             src="//code.angularjs.org/1.4.3/angular-resource.js">
+    </script>
+    <script type="text/javascript"
+            src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.js">
     </script>
     <script type="text/javascript"
             src="js/services.js">
@@ -16,5 +21,10 @@
 
   <body>
     <user-menu></user-menu>
+    <hr>
+    <timer on-time-saved="$emit('NEW_TIME', time)">
+    </timer>
+    <hr>
+    <time-list></time-list>
   </body>
 </html>
