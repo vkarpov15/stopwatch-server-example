@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+.timer-display {
+  font-size: 3em;
+  border: 1px dashed orange;
+  width: 360px;
+  text-align: center;
+}
+
+.timer button {
+  background-color: orange;
+  color: black;
+  font-size: 1.5em;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 170px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.reset-button {
+  margin-left: 18px;
+}
+
+.save-time {
+  margin-top: 15px;
+  border: 1px dashed #bdbdbd;
+  width: 360px;
+}
+
+.save-time input {
+  background-color: #ededed;
+  font-size: 1.5em;
+  border: 0px;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.success-message {
+  margin-top: 15px;
+  color: green;
+  font-size: 2em;
+}
+
+.time {
+  margin: 5px;
+}
+
+.time-tag {
+  padding: 2px;
+  border-radius: 3px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.time-delete {
+  background-color: #f37984;
+  padding: 2px;
+  padding-left: 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+  text-align: center;
+  cursor: pointer;
+}
