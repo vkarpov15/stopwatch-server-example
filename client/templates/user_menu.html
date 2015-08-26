@@ -1,0 +1,12 @@
+<div>
+  <div class="user-data" ng-show="user.data">
+    <div>
+      Welcome, {{user.data.username}}
+    </div>
+  </div>
+  <div class="login" ng-show="!user.data">
+    <a href="/auth/facebook">
+      <img src="//i.stack.imgur.com/LKMP7.png">
+    </a>
+  </div>
+</div>
